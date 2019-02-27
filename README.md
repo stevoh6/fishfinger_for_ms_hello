@@ -4,7 +4,8 @@ how to enable or disable allowing domain users to set up and sign in to Windows 
 
 You must be signed in as an **administrator** to enable or disable PIN for domain users.
 
-###What is included:
+### What is included:
+
 `Allow_fingerprint.reg` >  regedit file for unlock adding MS Hello PIN and setup FingerPrint
 
 `Revert_fingerprint.reg` > regedit file for revert changes
@@ -14,7 +15,7 @@ You must be signed in as an **administrator** to enable or disable PIN for domai
 `Ms_pin_finger_setup.png` and `Ms_diag_blabla.png` > pictures for help
 
 
-##SETUP:
+## SETUP:
 1. Disconnect pc from domain network.
 2.  Run `Allow_fingerprint.reg` as admin
 3.  Manual steps:
@@ -29,7 +30,7 @@ You must be signed in as an **administrator** to enable or disable PIN for domai
 5. Done. You can connect to domain network.
 6. (Optional) Restart pc.
 
-##REVERT:
+## REVERT:
 1. Run `Revert_fingerprint.reg` as admin
 2. Manual steps:
     - Open Settings.
@@ -43,7 +44,7 @@ You must be signed in as an **administrator** to enable or disable PIN for domai
 3. Done.
 6. (Optional) Restart pc.
 
-####For more details, check some useful articles:
+#### For more details, check some useful articles:
 - https://www.top-password.com/blog/change-pin-complexity-requirements-policy-in-windows-10/
 - https://social.technet.microsoft.com/Forums/en-US/5c9d5ed5-877f-4bba-b5be-3be1b97580d3/windows-hello-pin-signin-option-disabling?forum=win10itprogeneral
 - https://superuser.com/questions/1322150/how-do-i-disable-windows-10-login-prompt-to-set-up-a-pin/1326422
