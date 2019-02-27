@@ -9,7 +9,7 @@ You must be signed in as an **administrator** to enable or disable PIN for domai
 
 `Revert_fingerprint.reg` > regedit file for revert changes
 
-`ReadMe.md` > this tutorial
+`README.md` > this tutorial
 
 `Ms_pin_finger_setup.png` and `Ms_diag_blabla.png` > pictures for help
 
