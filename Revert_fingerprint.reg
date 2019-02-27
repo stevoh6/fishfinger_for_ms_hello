@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WinBio\Credential Provider]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"AllowDomainPINLogon"=-
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PassportForWork]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Biometrics]

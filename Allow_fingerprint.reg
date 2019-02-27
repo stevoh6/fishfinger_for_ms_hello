@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WinBio\Credential Provider]
+"Domain Accounts"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"AllowDomainPINLogon"=dword:00000001
+"BlockDomainPicturePassword"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PassportForWork]
+"Enabled"=dword:00000001 
+"RequireSecurityDevice"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PassportForWork\PINComplexity]
+"Digits"=dword:00000001
+"UppercaseLetters"=dword:00000001
+"LowercaseLetters"=dword:00000001
+"MaximumPINLength"=dword:00000080
+"MinimumPINLength"=dword:0000000c
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Biometrics]
+"Enabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Biometrics\Credential Provider]
+"Domain Accounts"=dword:00000001
+"Enabled"=dword:00000001
