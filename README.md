@@ -16,9 +16,10 @@ You must be signed in as an **administrator** to enable or disable PIN for domai
 
 
 ## SETUP:
-1. Disconnect pc from domain network.
-2.  Run `Allow_fingerprint.reg` as admin
-3.  Manual steps:
+1. Download latest release from: https://github.com/stevoh6/fishfinger_for_ms_hello/releases
+2. Disconnect pc from domain network.
+3.  Run `Allow_fingerprint.reg` as admin
+4.  Manual steps:
     - Click on Accounts.
     - Open Settings.
     - Click on Sign-in options.
@@ -26,9 +27,9 @@ You must be signed in as an **administrator** to enable or disable PIN for domai
     - Click `Setup` under Fingerprint section. (picture `Ms_pin_finger_setup.png` step 2.)
     - Close annoying MS windows dialog box. (picture `Ms_diag_blabla.png`)
     > **Important** PIN should be secure at least as domain password!
-4. Test.
-5. Done. You can connect to domain network.
-6. (Optional) Restart pc.
+5. Test.
+6. Done. You can connect to domain network.
+7. (Optional) Restart pc.
 
 ## REVERT:
 1. Run `Revert_fingerprint.reg` as admin
